@@ -1,0 +1,20 @@
+
+div .menu{
+    height: 35px;
+    border: .2px solid  rgb(212, 212, 212);
+    background-color: rgb(235, 235, 235);
+}
+div ul li{
+    list-style: none;
+    line-height: 35px;
+    
+}
+#anterior{
+    float: left;
+    font-weight: bold;
+}
+#siguiente{
+    float: right;
+    font-weight: bold;
+    margin-right: 35px;
+}
