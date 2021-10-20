@@ -7,14 +7,27 @@ div .menu{
 div ul li{
     list-style: none;
     line-height: 35px;
-    
+    display: inline-block;
+    width: 100px;
+    height: 94px;
 }
-#anterior{
+li#anterior{
     float: left;
     font-weight: bold;
+    background-image: url("flechas.png") ;
+    background-size: auto;
+    background-position:-100px 0px;
 }
-#siguiente{
+li#siguiente{
     float: right;
     font-weight: bold;
     margin-right: 35px;
+    background-image: url("flechas.png");
+    background-size: auto;
 }
+li#anterior:hover{
+background-position: -200px -188px;
+}
+li#siguiente:hover{
+    background-position: -200px 0px;
+    }

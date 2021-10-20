@@ -1,0 +1,11 @@
+
+li{
+    list-style: none;
+    border: 1px solid black;
+    background-image: url("flecha_inactiva.png");
+    background-repeat: no-repeat;
+}
+li:hover{
+    background-image: url("flecha_activa.png");
+    background-repeat: no-repeat;
+}
