@@ -1,11 +1,23 @@
-
+ul{
+    display: inline;
+}
 li{
+    width: 200px;
     list-style: none;
-    border: 1px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 5px;
+    padding-left: 30px;
     background-image: url("flecha_inactiva.png");
     background-repeat: no-repeat;
+    background-position: 5px 5px;
 }
 li:hover{
     background-image: url("flecha_activa.png");
     background-repeat: no-repeat;
+    background-position: 5px 5px;
+}
+ul li:last-child{
+border-bottom: 1px solid black;
 }
