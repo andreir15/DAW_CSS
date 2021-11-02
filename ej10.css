@@ -1,0 +1,23 @@
+ul{
+    list-style: none;
+    display: inline;
+}
+li{
+    width: 200px;
+    border:1px solid black;
+    color: red;
+    margin-bottom: 6px;
+    background-color: rgb(148, 224, 226);
+    padding: 5px;
+    transition: all 0.7s;
+}
+li:hover{
+    width: 250px;
+   font-size: 20px;
+    color: blue;
+    border-radius: 25px 5px;
+    text-align: center;
+    background-color: gold;
+    transition: all 0.7s;
+    
+}
