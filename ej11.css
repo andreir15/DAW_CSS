@@ -1,0 +1,33 @@
+div{
+    height: 300px;
+    width: 270px;
+
+}
+.disco{
+    position: absolute;
+}
+ul{
+    list-style: none;
+}
+.caratula{
+    position: absolute;
+background-image: url(caratulaDisco.jpg);
+background-size: 270px 300px;
+transition:transform 0.7s;
+}
+.lista{
+    border: 1px solid black;
+   /*transform: rotateY(180deg);
+    transition: transform 0.7s;
+    backface-visibility: hidden;*/
+}
+.caratula:hover{
+transform: rotateY(180deg);
+transition: transform 0.7s;
+backface-visibility: hidden;
+
+}
+.lista:hover{
+    transform: rotateY(180deg);
+    transition: transform 0.7s;
+}
