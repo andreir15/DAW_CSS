@@ -1,0 +1,9 @@
+div{
+    height: 300px;
+    width: 270px;
+
+}
+.pelota{
+    background-image: url(pelota.png);
+    background-size: 270px 300px;
+}
