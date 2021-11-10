@@ -1,39 +1,35 @@
 div{
-height: 500px;
-width: 500px;
-}
-.contenedor{
-    width: 100%;
-    height: 100%;
-}
-.lata{
-    display: block;
-    background-image: url("lata.png");
-    background-repeat: no-repeat;
-}
-.mapamundi{
-    background-image: url("shadow_highlight.png");
-    background-repeat: no-repeat;
-    position: absolute;
-}
-.mapa{
-    background-image: url("mapa.jpg");
-    background-size: 40%;
-    background-repeat: no-repeat;
-    animation: mover 12s normal infinite linear ;
-}
-.pegatina{
-    background-image: url("pegatina.jpg");
-    background-size: 120%;
-    background-repeat: no-repeat;
-    animation: mover 8s normal infinite linear ;
-}
-@keyframes mover {
- from{
-    background-position: 0%;
-}  
- to{
-    background-position: 425%;
+    height: 500px;
+    width: 500px;
+    }
+    .contenedor{
+        width: 194px;
+        height: 500px;
+        overflow: hidden;
+    }
+    .lata{
+        display: block;
+        position: absolute;
+        background-image: url("lata.png");
+        background-repeat: no-repeat;
+        
+    }
 
- } 
-}
+    .pegatina{
+        background-image: url("pegatina.jpg") ;
+        background-size: 120%;
+        background-repeat: no-repeat;
+        animation: mover 7s normal infinite linear ;
+        padding-top: 205px;
+       
+    }
+
+    @keyframes mover {
+        from{
+           background-position: 100%;
+       }  
+        to{
+           background-position: 420%;
+       
+        } 
+       }
