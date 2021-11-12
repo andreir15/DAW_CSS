@@ -1,0 +1,33 @@
+.titulo{
+    font-weight: bold;
+    float: left;
+    width: 150px;
+    text-align: right;
+}
+.requerido{
+    color: red;
+}
+li{
+    list-style: none;
+}
+
+li:hover{
+background-color: #FF9;
+}
+
+ul li input:focus {
+    border: 2px solid #E6B700;
+  }
+  .ayuda{
+ color: white;
+  }
+  
+  ul li:hover p.ayuda {
+    display: block;
+    margin: 0.3em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    color: black;
+  }
