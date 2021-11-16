@@ -20,36 +20,19 @@ ul li input:focus {
     border: 2px solid #E6B700;
   }
 
-  ul li.izquierda, ul li.derecha{
-float: none;
-width: auto;
-  }
-  ul li{
-      overflow: hidden;
-  }
-  ul li label.titulo{
+.titulo{
       float: left;
       width: 150px;
+
   }
-  ul li div{
-      margin-left: 160px;
-  }
+
   .ayuda{
  color: white;
   }
-  h2{
-      margin-bottom: 0.3em;
-  }
+ 
   ul li{
       margin:0;
       padding: 1em;
-  }
-  ul li.botones{
-      margin:0;
-  }
-  ul li label.titulo{
-      text-align: right;
-      width: 100px;
   }
   ul li div{
       margin-left: 110px;
