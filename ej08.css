@@ -1,0 +1,32 @@
+div .menu{
+    height: 35px;
+    border: .2px solid  rgb(212, 212, 212);
+    background-color: rgb(235, 235, 235);
+}
+div ul li{
+    list-style: none;
+    line-height: 35px;
+    display: inline-block;
+    width: 200px;
+    height: 188px;
+}
+li#anterior{
+    float: left;
+    font-weight: bold;
+    background-image: url("flechas.png") ;
+    background-size: auto;
+    background-position:-200px 0px;
+}
+li#siguiente{
+    float: right;
+    font-weight: bold;
+    margin-right: 35px;
+    background-image: url("flechas.png");
+    background-size: auto;
+}
+li#anterior:hover{
+background-position: -400px -400px;
+}
+li#siguiente:hover{
+    background-position: -400px 0px;
+    }
