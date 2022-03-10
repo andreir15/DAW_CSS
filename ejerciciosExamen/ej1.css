@@ -1,0 +1,20 @@
+input:focus{
+    border: 3px solid black;
+background-color: lightblue;
+}
+div label{
+    display: block;
+}
+div input{
+    display: block;
+}
+div span{
+    display: none;
+}
+input:hover + span {
+display: inline;
+
+}
+
+
+

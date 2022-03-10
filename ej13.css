@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 div{
     height: 500px;
     width: 500px;
@@ -72,3 +73,79 @@ div{
     top:0px;
     left: 0px;;
 }
+=======
+div{
+    height: 500px;
+    width: 500px;
+}
+.contenedor{
+    position: absolute;
+    height: 100%;
+   width: 100%; 
+   left: 750px;
+   top: 300px;
+}
+.contenedor div{
+    padding: 8px;
+    padding-bottom: 60px;
+    border: 2px solid black;
+    background-position: center;
+    background-color: white;
+}
+.uno{
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    background-image: url(animales1.jpg);
+    background-size: 300px 350px;
+    background-repeat: no-repeat;
+    top:175px;
+    transform: rotate(-7deg);
+    transition: all 0.6s;
+}
+.dos{
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    background-image: url(animales2.jpg);
+    background-size: 300px 350px;
+    background-repeat: no-repeat;
+    left: 150px;
+    top: -75px;
+    transform: rotate(-5deg);
+    transition: all 0.6s;
+}
+.tres{
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    background-image: url(animales3.jpg);
+    background-size: 300px 350px;
+    background-repeat: no-repeat;
+    left: -170px;
+    transform: rotate(5deg);
+    transition: all 0.6s;
+}
+.cuatro{
+    width: 300px;
+    height: 350px;
+  position: absolute;
+    background-image: url(animales4.jpg);
+    background-size: 300px 350px;
+    background-repeat: no-repeat;
+    top:-165px;
+    transform: rotate(10deg);
+    transition: all 0.6s;
+}
+.contenedor div:hover{
+    z-index: 1;
+    width: 400px;
+    height: 450px;
+    transform: rotate(0deg);
+    background-size: 400px 450px;
+    transition: all 0.6s;
+    position: absolute;
+    top:0px;
+    left: 0px;;
+}
+>>>>>>> Stashed changes

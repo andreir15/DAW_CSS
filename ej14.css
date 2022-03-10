@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 div{
     height: 500px;
     width: 500px;
@@ -32,4 +33,40 @@ div{
            background-position: 420%;
        
         } 
+=======
+div{
+    height: 500px;
+    width: 500px;
+    }
+    .contenedor{
+        width: 194px;
+        height: 500px;
+        overflow: hidden;
+    }
+    .lata{
+        display: block;
+        position: absolute;
+        background-image: url("lata.png");
+        background-repeat: no-repeat;
+        
+    }
+
+    .pegatina{
+        background-image: url("pegatina.jpg") ;
+        background-size: 120%;
+        background-repeat: no-repeat;
+        animation: mover 7s normal infinite linear ;
+        padding-top: 205px;
+       
+    }
+
+    @keyframes mover {
+        from{
+           background-position: 100%;
+       }  
+        to{
+           background-position: 420%;
+       
+        } 
+>>>>>>> Stashed changes
        }
